@@ -24,7 +24,7 @@ Instale o Kali NetHunter em qualquer dispositivo Android sem root sem anular a g
 
 # OBS: Após os procedimentos acima serem concluídos, você já pode usar o sistema NetHunter
 
-Execute sudo apt update && sudo apt full-upgrade -ya primeira coisa após a instalação para atualizar o Kali . Se você tiver muito espaço de armazenamento disponível, talvez queira executar sudo apt install -y kali-linux-default também.
+Execute `sudo apt update && sudo apt full-upgrade -y` a primeira coisa após a instalação para atualizar o Kali . Se você tiver muito espaço de armazenamento disponível, talvez queira executar `sudo apt install -y kali-linux-default` também.
 Todas as ferramentas de teste de penetração devem funcionar, mas algumas podem ter restrições, por exemplo, o metasploit funciona, mas não tem suporte a banco de dados.
 Alguns utilitários como “top” não rodam em telefones sem root.
 Usuários não root ainda têm acesso root no chroot. Isso é uma coisa proot. Apenas esteja ciente disso.
@@ -59,7 +59,7 @@ Comandos:
 * `nethunter -r <command>`	executado <command>no ambiente NetHunter como root
 
 
-Nota: O comando nethunterpode ser abreviado para nh. Dica: Se você executar o kex em segundo plano ( &) sem ter definido uma senha, traga-o de volta ao primeiro plano primeiro quando solicitado a inserir a senha, ou seja, via fg <job id>- você pode enviá-lo para o segundo plano novamente via Ctrl + zebg <job id>
+Nota: O comando `nethunter` pode ser abreviado para `nh`. Dica: Se você executar o kex em segundo plano ( &) sem ter definido uma senha, traga-o de volta ao primeiro plano primeiro quando solicitado a inserir a senha, ou seja, via `fg <job id>` - você pode enviá-lo para o segundo plano novamente via `Ctrl + zebg <job id>`
 
 Para usar o KeX, inicie o cliente KeX, digite sua senha e clique em conectar Dica: para uma melhor experiência de visualização, insira uma resolução personalizada em “Configurações avançadas” no cliente KeX
 
