@@ -12,15 +12,15 @@ Instale o Kali NetHunter em qualquer dispositivo Android sem root sem anular a g
 
 # Abra o terminal e digite
 
-• termux-setup-storage
+* `termux-setup-storage`
 
-• pkg install wget
+* `pkg install wget`
 
-• wget -O install-nethunter-termux https://offs.ec/2MceZWr
+* `wget -O install-nethunter-termux https://offs.ec/2MceZWr`
 
-• chmod +x install-nethunter-termux
+* `chmod +x install-nethunter-termux`
 
-• ./install-nethunter-termux
+* `./install-nethunter-termux`
 
 # OBS: Após os procedimentos acima serem concluídos, você já pode usar o sistema NetHunter
 
@@ -38,25 +38,25 @@ Abra o Termux e digite um dos seguintes:
 
 Comandos:
 
-• nethunter |	iniciar a interface de linha de comando do Kali NetHunter
+* `nethunter`	iniciar a interface de linha de comando do Kali NetHunter
 
-• nethunter kex passwd |	configurar a senha KeX (necessária apenas antes do 1º uso)
+* `nethunter kex passwd`	configurar a senha KeX (necessária apenas antes do 1º uso)
 
-• nethunter kex & |	iniciar sessões de usuário do Kali NetHunter Desktop Experience• nethunter kex stop	parar a experiência de desktop Kali NetHunter
+* `nethunter kex &`	iniciar sessões de usuário do Kali NetHunter Desktop Experience• nethunter kex stop	parar a experiência de desktop Kali NetHunter
 
-• nethunter <command> |	correem ambiente NetHunter
+* `nethunter <command>`	correem ambiente NetHunter
 
-• nethunter -r |	inicie o Kali NetHunter cli como root
+* `nethunter -r`	inicie o Kali NetHunter cli como root
 
-• nethunter -r kex passwd |	configurar a senha do KeX para root
+* `nethunter -r kex passwd`	configurar a senha do KeX para root
 
-• nethunter -r kex & |	inicie o Kali NetHunter Desktop Experience como root
+* `nethunter -r kex &`	inicie o Kali NetHunter Desktop Experience como root
 
-• nethunter -r kex stop |	interrompa as sessões raiz do Kali NetHunter Desktop Experience
+* `nethunter -r kex stop`	interrompa as sessões raiz do Kali NetHunter Desktop Experience
 
-• nethunter -r kex kill |	Mate todas as sessões do KeX
+* `nethunter -r kex kill`	Mate todas as sessões do KeX
 
-• nethunter -r <command> |	executado <command>no ambiente NetHunter como root
+* `nethunter -r <command>`	executado <command>no ambiente NetHunter como root
 
 
 Nota: O comando nethunterpode ser abreviado para nh. Dica: Se você executar o kex em segundo plano ( &) sem ter definido uma senha, traga-o de volta ao primeiro plano primeiro quando solicitado a inserir a senha, ou seja, via fg <job id>- você pode enviá-lo para o segundo plano novamente via Ctrl + zebg <job id>
