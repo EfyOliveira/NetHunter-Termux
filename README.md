@@ -42,7 +42,9 @@ Comandos:
 
 * `nethunter kex passwd`	configurar a senha KeX (necessária apenas antes do 1º uso)
 
-* `nethunter kex &`	iniciar sessões de usuário do Kali NetHunter Desktop Experience• nethunter kex stop	parar a experiência de desktop Kali NetHunter
+* `nethunter kex &`	iniciar sessões de usuário do Kali NetHunter Desktop Experience
+
+* `nethunter kex stop` parar a experiência de desktop Kali NetHunter
 
 * `nethunter <command>`	correem ambiente NetHunter
 
